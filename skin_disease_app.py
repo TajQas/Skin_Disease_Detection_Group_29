@@ -1,4 +1,4 @@
-0import os
+import os
 import numpy as np
 from PIL import Image
 import matplotlib
