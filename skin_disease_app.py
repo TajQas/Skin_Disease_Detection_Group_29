@@ -51,7 +51,7 @@ with st.sidebar:
     for name in CLASS_NAMES:
         st.markdown(f"- {name.replace('_', ' ')}")
     st.divider()
-    st.warning("⚠️ For educational purposes only. Always consult a qualified dermatologist.")
+    st.warning("⚠️ For aiding skin disease diagnosis purposes only. Always consult a qualified dermatologist.")
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  TITLE
