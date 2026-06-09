@@ -1,4 +1,4 @@
-import os
+0import os
 import numpy as np
 from PIL import Image
 import matplotlib
@@ -67,21 +67,6 @@ with col_title:
     st.markdown("## 🔬 Skin Disease Classifier (Group 29)")
     st.caption("ResNet50V2  ·  22 skin conditions  ·  Upload an image for instant analysis")
 
-# ── Developed by banner ────────────────────────────────────────────────────────
-st.markdown(
-    """
-    <div style="background-color:#1e3a5f; padding:10px 16px; border-radius:6px; margin-bottom:6px;">
-        <span style="color:#a8d4f5; font-size:0.78rem; font-weight:600; letter-spacing:0.08em;">
-            DEVELOPED BY
-        </span><br>
-        <span style="color:#ffffff; font-size:0.92rem;">
-            Tajudeen Kazeem &nbsp;·&nbsp; Oluwakayode Alabi &nbsp;·&nbsp;
-            Oladele Paul &nbsp;·&nbsp; Peter Olajide &nbsp;·&nbsp; Adeola Adeniyi
-        </span>
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
 st.divider()
 
 # ── Guard: TensorFlow ──────────────────────────────────────────────────────────
@@ -303,4 +288,18 @@ st.warning(
     "⚠️ **Medical Disclaimer:** This tool is for educational purposes only. "
     "It is not a substitute for professional medical advice or diagnosis. "
     "Always consult a qualified dermatologist."
+)
+
+st.markdown(
+    """
+    <div style="text-align:center; margin-top:2rem; padding-top:1rem;
+                border-top:1px solid #e0e0e0;">
+        <p style="color:#aaaaaa; font-size:0.72rem; margin:0;">
+            Developed by &nbsp;·&nbsp;
+            Tajudeen Kazeem &nbsp;·&nbsp; Oluwakayode Alabi &nbsp;·&nbsp;
+            Oladele Paul &nbsp;·&nbsp; Peter Olajide &nbsp;·&nbsp; Adunola Amole Oladele
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
