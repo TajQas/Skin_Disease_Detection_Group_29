@@ -285,7 +285,7 @@ with col_results:
 
 st.divider()
 st.warning(
-    "⚠️ **Medical Disclaimer:** This tool is for educational purposes only. "
+    "⚠️ **Medical Disclaimer:** This tool is for aiding skin disease diagnosis purposes only. "
     "It is not a substitute for professional medical advice or diagnosis. "
     "Always consult a qualified dermatologist."
 )
